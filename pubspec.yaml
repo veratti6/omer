@@ -1,0 +1,52 @@
+name: trading_analyzer_pro
+description: An AI-powered mobile application for analyzing financial charts using Fibonacci strategies and Support & Resistance levels.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # State Management
+  provider: ^6.0.5
+  # Image Processing
+  image_picker: ^1.0.4
+  image: ^4.0.15
+  # OCR
+  google_mlkit_text_recognition: ^0.7.0
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  # UI Components
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.3.0
+  # PDF Generation
+  pdf: ^3.10.4
+  # Storage
+  shared_preferences: ^2.2.0
+  # Networking
+  http: ^1.1.0
+  # Charts
+  fl_chart: ^0.65.0
+  # Firebase
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  firebase_storage: ^11.2.4
+  # Notifications
+  firebase_messaging: ^14.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/ 
